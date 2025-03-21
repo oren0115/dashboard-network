@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Card, Title, Badge } from "@tremor/react";
+import { Card, Badge } from "@tremor/react";
 import { useAuth } from "@/context/AuthContext";
 import PageTransition from "@/components/PageTransition";
 

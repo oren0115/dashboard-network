@@ -12,8 +12,6 @@ export default function Navigation() {
     return null;
   }
 
-  const isAdmin = user.role === "admin";
-
   const navigationItems = [
     { name: "Dashboard", href: "/", allowedRoles: ["admin", "user"] },
     { name: "Devices", href: "/devices", allowedRoles: ["admin", "user"] },
